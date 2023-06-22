@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+@import "common/common.scss";
+// setting
+@import "setting/fonts";
+@import "setting/base";
+@import "setting/mixin";
+
+//레이아웃
+@import "layout/_header.scss";
+@import "layout/_section2.scss";
+@import "layout/_section3.scss";
+@import "layout/_section4.scss";
+@import "layout/_parallaxs.scss";
