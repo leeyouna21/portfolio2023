@@ -41,12 +41,26 @@
   z-index: 100;
   color: #ad8073;
 }
-.parallax__item__text {
-  font-size: 30px;
-  background-color: rgb(241, 83, 83);
+.parallax__item__text1 {
+  font-size: 1vw;
+  position: absolute;
+  top: 18vw;
+  left: 53vw;
+  font-family: AritaDotum;
+}
+.parallax__item__text2 {
+  font-size: 1vw;
+  position: absolute;
+  top: 35vw;
+  left: 53vw;
+  font-family: AritaDotum;
+}
+.parallax__item__text3 {
+  font-size: 1vw;
   position: absolute;
   top: 15vw;
-  left: 50vw;
+  left: 53vw;
+  font-family: AritaDotum;
 }
 .parallax__item__imgWrap {
   width: 40vw;
@@ -81,4 +95,16 @@
 }
 #section1-4 .parallax__item__img {
   background-image: url(../../images/img04.png);
+}
+/* option */
+#parallax__cont {
+  overflow: hidden;
+}
+#horizontal {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500vw;
+}
+#horizontal > section {
+  width: 100vw;
 }
