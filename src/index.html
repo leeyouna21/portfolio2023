@@ -23,7 +23,8 @@
       <section id="section1">
         <h2>YOUNA</h2>
         <p class="desc1">
-          WEB DEVELOPMENT ENABLES CREATING INTERACTIVE ONLINE EXPERIENCES.
+          ADD ELEGANCE AND CHARM TO YOUR<br />
+          SPACE WITH MY CODING.
         </p>
         <div class="desc3">
           <img src="./images/header__me.png" alt="" />
@@ -35,8 +36,8 @@
       <section id="section2">
         <p class="section2__01">ABOUT ME</p>
         <p class="section2__02">
-          WHERE STYLEENDURES:<br />
-          TIMELESSFURNITURE<br />
+          WHERE CODINGENDURES:<br />
+          TIMELESSCODING<br />
           FORYOUR STORY
         </p>
         <div class="imgWrap">
@@ -213,10 +214,61 @@
           </div>
         </div>
       </section>
+
+      <section id="section6">
+        <div class="footer__wrap1">
+          <div class="footer__text1">
+            THANKS FOR REVIEWING<br />
+            MT PORTFOLIO !
+          </div>
+          <div class="footer__container1">
+            <div class="footer__cont__text1">
+              DON'T MISS OUT ON ME, CONTACT ME!
+            </div>
+            <div class="footer__cont__email">
+              <a class="email" href="mailto:yuna5845@gmail.com"
+                >yuna5845@gmail.com</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="section7">
+        <div class="footer__wrap">
+          <div class="footer__container">
+            <div class="footer__inner1"></div>
+          </div>
+          <div class="footer__inner2">
+            <span class="footer__text">YOUNA</span>
+          </div>
+          <div class="footer__inner3">
+            <div class="inner__text1">©2023</div>
+            <div class="inner__text2">MADE BY : YOUNA</div>
+          </div>
+        </div>
+      </section>
     </main>
     <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1/bundled/lenis.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js"></script>
+
+    <script>
+      let scrollTop = 0;
+      const namecard = document.querySelector(".footer__container1");
+      // 글씨들 이질감 효과
+      function section1Scroll() {
+        scrollTop = document.documentElement.scrollTop;
+        // const title = document.querySelector(".title");
+        // const target1 = title.querySelectorAll(".text");
+        const section6Top = document.querySelector("#section6");
+        let offset = (scrollTop - section6Top.offsetTop) * 0.8;
+        gsap.to(namecard, { duration: 1, y: -offset });
+
+        requestAnimationFrame(section1Scroll);
+      }
+      section1Scroll();
+    </script>
 
     <script>
       let sections = gsap.utils.toArray(".parallax__item");
