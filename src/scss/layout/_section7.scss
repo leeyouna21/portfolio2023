@@ -4,6 +4,7 @@
   background-image: url(../../images/footerimg.png);
   background-size: cover;
   background-repeat: no-repeat;
+  z-index: 1000;
   .footer__wrap {
     .footer__container {
       display: flex;
