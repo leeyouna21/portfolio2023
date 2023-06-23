@@ -1,0 +1,81 @@
+@import url("https://webfontworld.github.io/amore/AritaDotum.css");
+
+#section2 {
+  width: 100%;
+  height: 480vh;
+  background-color: #ead0bc2c;
+
+  .section2__01 {
+    font-size: 17vw;
+    color: #4b3d30;
+    text-align: right;
+    font-weight: 200;
+    padding-top: 20vw;
+  }
+  .section2__02 {
+    font-size: 3vw;
+    color: #4b3d30;
+    padding-left: 50vw;
+    padding-top: 5vw;
+    font-weight: 200;
+  }
+}
+.imgWrap {
+  width: 30vw;
+  height: 80vh;
+
+  .imgWrap01 {
+    width: 30vw;
+    height: 80vh;
+    margin-left: 10vw;
+  }
+  .imgWrap02 {
+    width: 20vw;
+    height: 50vh;
+    margin-left: 65vw;
+    margin-top: 10vw;
+  }
+  .imgWrap03 {
+    width: 40vw;
+    height: 100vh;
+    margin-left: 10vw;
+    margin-top: 25vw;
+  }
+}
+.text {
+  font-size: 20px;
+  padding: 2vw 20vw;
+  color: #4b3d30;
+  font-family: AritaDotum;
+}
+
+.text1 {
+  margin: 15vw;
+  margin-left: 4.5vw;
+  font-size: 11vw;
+  color: #be968b;
+  font-weight: 300;
+}
+.text2 {
+  margin-top: -20vw;
+  padding-left: 65vw;
+  font-size: 18px;
+  color: #4b3d30;
+  font-family: AritaDotum;
+}
+.text3 {
+  margin-top: 45vw;
+  padding-left: 52vw;
+  font-size: 20px;
+  color: #4b3d30;
+  font-family: AritaDotum;
+}
+.text4 {
+  margin-left: 52vw;
+  font-size: 11vw;
+  color: #906d63;
+  font-weight: 300;
+}
+// media
+@media (max-width: 800px) {
+}
