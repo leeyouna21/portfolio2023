@@ -10,8 +10,106 @@
       display: flex;
       width: 100%;
       height: 30vh;
-      //   background-color: #db7e7e;
+      color: #fff;
+      justify-content: space-between;
       .footer__inner1 {
+        width: 100%;
+        margin-top: 5vw;
+        margin-left: 5vw;
+        line-height: 1.5;
+        font-size: 1.5vw;
+        ul {
+          li {
+            .underline-rotate {
+              position: relative;
+              display: inline-block;
+              color: inherit;
+              overflow: hidden;
+            }
+            .underline-rotate::before {
+              content: "";
+              position: absolute;
+              left: 0;
+              bottom: -2px;
+              width: 100%;
+              height: 3px;
+              background-color: #fff;
+              transform-origin: left center;
+              transform: scaleX(0);
+              transition: transform 0.2s ease;
+            }
+
+            .underline-rotate:hover::before {
+              transform: scaleX(1);
+            }
+          }
+        }
+      }
+      .footer__inner1__01 {
+        width: 100%;
+        margin-top: 5vw;
+        margin-left: -50vw;
+        line-height: 1.5;
+        font-size: 1.5vw;
+        ul {
+          li {
+            .underline-rotate {
+              position: relative;
+              display: inline-block;
+              color: inherit;
+              overflow: hidden;
+            }
+            .underline-rotate::before {
+              content: "";
+              position: absolute;
+              left: 0;
+              bottom: -2px;
+              width: 100%;
+              height: 3px;
+              background-color: #fff;
+              transform-origin: left center;
+              transform: scaleX(0);
+              transition: transform 0.2s ease;
+            }
+
+            .underline-rotate:hover::before {
+              transform: scaleX(1);
+            }
+          }
+        }
+      }
+      .footer__inner1__02 {
+        width: 100%;
+        margin-top: 5vw;
+        margin-left: -50vw;
+        line-height: 1.5;
+        font-size: 1.5vw;
+        ul {
+          li {
+            .underline-rotate {
+              position: relative;
+              display: inline-block;
+              color: inherit;
+              overflow: hidden;
+            }
+            .underline-rotate::before {
+              content: "";
+              position: absolute;
+              left: 0;
+              bottom: -2px;
+              width: 100%;
+              height: 3px;
+              background-color: #fff;
+              transform-origin: left center;
+              transform: scaleX(0);
+              transition: transform 0.2s ease;
+            }
+
+            .underline-rotate:hover::before {
+              transform: scaleX(1);
+            }
+          }
+        }
       }
     }
     .footer__inner2 {
